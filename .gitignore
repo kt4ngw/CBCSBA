@@ -1,0 +1,11 @@
+result/
+pre_train
+plot
+data
+.idea
+*.sh
+*.txt
+record.md
+test.py
+__pycache__
+groupfile
