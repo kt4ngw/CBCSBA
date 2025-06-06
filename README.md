@@ -87,9 +87,9 @@ or (BibTeX)
   journal={{IEEE} Trans. Mobile Comput.}, 
   title={Joint Class-Balanced Client Selection and Bandwidth Allocation for Cost-Efficient Federated Learning in Mobile Edge Computing Networks}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-17},
-  doi={10.1109/TMC.2025.3539284}}
+  volume={24},
+  number={7},
+  pages={5681-5698},
+  month={Jul.}}
 
 ```
