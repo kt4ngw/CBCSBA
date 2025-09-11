@@ -82,11 +82,13 @@ J. Tang, X. Li, H. Li, P. Li, X. Wang and V. C. M. Leung, "Joint Class-Balanced 
 or (BibTeX)
 
 ```
-@ARTICLE{GFLCSM,
-    author={Tang, Jian and Li, Xiuhua and Xu, Guozeng and Li, Penghua and Wang, Xiaofei and Leung, Victor C. M.},
-    journal={{IEEE} Trans. Mob. Comput.},
-    title={Group-based Federated Learning with Cost-efficient Sampling Mechanism in Mobile Edge Computing Networks}, 
-    year={2025},
-    pages={1-18},
-    note={10.1109/TMC.2025.3608024}}
+@ARTICLE{CBCSBA,
+  author={Tang, Jian and Li, Xiuhua and Li, Hui and Li, Penghua and Wang, Xiaofei and Leung, Victor C. M.},
+  journal={{IEEE} Trans. Mobile Comput.}, 
+  title={Joint Class-Balanced Client Selection and Bandwidth Allocation for Cost-Efficient Federated Learning in Mobile Edge Computing Networks}, 
+  year={2025},
+  volume={24},
+  number={7},
+  pages={5681-5698},
+  month={Jul.}}
 ```
