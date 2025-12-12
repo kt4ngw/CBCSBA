@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from src.fed_client.fedgroup_client import FedGroupClient
 import random
 from src.group_module.group_maker import Group_Maker
-from src.optimizers.adam import MyAdam
+
 from torch.optim import SGD, Adam
 import numpy as np
 import copy

@@ -1,14 +1,6 @@
-from src.fed_server.fedavg import FedAvgTrainer
-from src.fed_server.fedprox import FedProxTrainer
-from src.fed_server.scaffold import ScaffoldTrainer
+
 from getdata import GetDataSet
-from src.fed_server.nodeproposed import NODEProposed
-from src.fed_server.proposed import Proposed
-from src.fed_server.reinforce import REINFORCETrainer
-from src.fed_server.dqn import DQNTrainer
-from src.fed_server.bproposed import BProposed
-from src.fed_server.ba1p import BA1Proposed
-from src.fed_server.ba2p import BA2Proposed
+
 import argparse
 import torch
 from getdata import GetDataSet
@@ -56,7 +48,7 @@ def input_options():
     # parser.add_argument( '--weight_decay', help='weight_decay;', type=int, default=1)
     # parser.add_argument( '--algorithm', help='algorithm;', choices=OPTIMIZERS, type=str, default='propose')
     parser.add_argument( '--dirichlet', default=0.05, type=float, help='Dirichlet;')
-    parser.add_argument( '--server', type=str, default='fedavg', help='server')
+    parser.add_argument( '--server', type=str, default='proposed', help='server')
     parser.add_argument('--opti', type=str, default='gd', help='optimize_;')
     parser.add_argument('--is_real_class', type=bool, default=True, help='is or is not evaluate class;')
     parser.add_argument('--weight', type=float, default=0.5, help='Weighting of energy consumption and latency;')
